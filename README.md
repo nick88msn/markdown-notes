@@ -1,4 +1,4 @@
-# What is Markdown?
+# What is Markdown
 - a lightweight markup language with a plain text formatting syntax
 - can be converted to html/xhtml and other formats
 - it's main purpose is readability and ease of use
@@ -60,8 +60,17 @@ ___
 # Links
 - For links the text we wanna show goes into brackets \[\] while the URL address we want to point goes inside \(\)
 - i.e. [Google](https://google.com)
+    - To quickly turn a URL or email address into a link, enclose it in angle brackets
+    - i.e. <email@email.com> or <https://google.com>
 - To add a title when we hover the link we can just add "Title" after the URL address
 - i.e. [Google](https://google.com "Google.com")
+
+## Internal links (references)
+- If you have headers in the markdown files, you can directly link them in the file.
+- in example an ## The Header will automatically generate a #the-header anchor we can link
+- in this case the link will be [Go to header](#the-header)
+
+[Go to first section](#what-is-markdown)
 
 # Lists
 ## Unordered lists

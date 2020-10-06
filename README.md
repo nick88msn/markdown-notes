@@ -91,7 +91,8 @@ ___
 - gh has its own flavor of markdown
 - for block of codes use triple backticks instead of one \`\`\` 
 - we can also add specific syntax for the language we want to use
-- ``` javascript
+
+```JavaScript
 import React
 const elem = () => {
     return(
@@ -101,7 +102,7 @@ const elem = () => {
 export defaults elem
 ```
 
-```python
+```Python
 from datetime import datetime
 dt = datetime(2020,10,1,12)
 def getTime(dt):

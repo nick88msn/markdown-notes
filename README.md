@@ -89,4 +89,34 @@ ___
 
 # Github
 - gh has its own flavor of markdown
-- for block of codes use triple backticks instead of one
+- for block of codes use triple backticks instead of one \`\`\` 
+- we can also add specific syntax for the language we want to use
+- ``` javascript
+import React
+const elem = () => {
+    return(
+        "This is something"
+    )
+}
+export defaults elem
+```
+
+```python
+from datetime import datetime
+dt = datetime(2020,10,1,12)
+def getTime(dt):
+    return dt.Hour
+```
+
+# Tables
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+# Task list
+- These shows as checkbox on GH
+*[x] Task 1
+*[x] Task 2
+*[ ] Task 3
